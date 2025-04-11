@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import BidItem from './BidItem'
 
+
+
 const BidItems = ({handleLove,addAmount,favItem}) => {
   const [bidItem, setBidItem] = useState([])
 

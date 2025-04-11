@@ -33,7 +33,7 @@ const BidItems = ({handleLove,addAmount,favItem}) => {
           </tr>
         </thead>
         <tbody>
-          {bidItem.map((item) => <BidItem favItem={favItem} addAmount={addAmount} handleLove={handleLove} key={item.id} item={item}></BidItem> )}
+          {bidItem.map((item,index) => <BidItem lastBorder={index === bidItem.length - 1} favItem={favItem} addAmount={addAmount} handleLove={handleLove} key={item.id} item={item}></BidItem> )}
         </tbody>
       </table>
      </div>

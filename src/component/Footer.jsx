@@ -12,6 +12,7 @@ const Footer = () => {
           <h1>Win.</h1>
           <h1>Own.</h1>
         </div>
+
         <nav className="flex gap-6 text-xl">
           <a className="link link-hover">Home</a>
           <a className="link link-hover">Auction</a>

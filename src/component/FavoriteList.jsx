@@ -16,6 +16,7 @@ const FavoriteList = ({list, btnRemove}) => {
           <p> ${currentBidPrice}</p>
           <p>Bids : {bidsCount}</p>
         </div>
+
       </div>
 
       </div>

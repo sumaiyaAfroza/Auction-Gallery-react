@@ -11,6 +11,7 @@ const FavoriteLists = ({favItem, amount, btnRemove}) => {
       <h1 className='mt-1'><FaRegHeart /></h1>
       <h1 className=" gap-2 text-3xl font-bold mb-4 text-[#0E2954] ">Favorite Items</h1>
       </div>
+    
 
       <div className='border-b-2 border-b-neutral-400 '>
         {favItem.length === 0 ? (

@@ -2,15 +2,14 @@ import { FaRegHeart } from "react-icons/fa";
 import { GoHeartFill } from "react-icons/go";
 
 
-const BidItem = ({item,handleLove,addAmount,favItem}) => {
+const BidItem = ({item,handleLove,addAmount,favItem,lastBorder}) => {
     // console.log(item)
-
     const { id,title, currentBidPrice, timeLeft, image } = item;
-  
     const isFav = favItem.some((favId)=> favId.id === id ) 
 
+
   return (
-<tr className="border-b hover:bg-gray-100 transition text-lg">
+<tr className={` hover:bg-gray-100 transition text-lg ${lastBorder || "border-b border-gray-300"}`}>
       <td className="px-6 py-4 flex items-center gap-4">
         <img src={image} alt={title} className="w-20 h-20 rounded object-cover" />
         <span className="text-gray-600 font-medium">{title}</span>

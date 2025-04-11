@@ -6,7 +6,6 @@ import Footer from "./component/Footer";
 import Header from "./component/Header";
 import FavoriteLists from "./component/FavoriteLists";
 
-
 function App() {
   const [favItem, setFavItem] = useState([]);
   const [amount, setAmount] = useState(0);

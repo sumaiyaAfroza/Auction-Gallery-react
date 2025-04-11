@@ -1,7 +1,7 @@
 import React from "react";
 import banner from "/Banner-min.jpg";
 
-const Banner = () => { 
+const Banner = () => {
   return (
     <div >
       <div
